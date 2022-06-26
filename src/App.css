@@ -2,37 +2,106 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:disabled {
+	background-color:rgb(235, 232, 233);
+}
+
+.cursor {
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+  font-size: 100%;
+}
+.btn {
+  visibility: hidden;
+}
+.btnactive {
+  visibility: visible;
+}
+input {
+  border:0ch;
+  background-color: rgb(255, 255, 255);
+  color:rgb(92, 100, 100);
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  
+}
+.hello {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;;
+}
+.rightblock {
+  display: flex;
+  font-size: large;
+}
+ .form {
+  /* width: 81%; */
+  
+  width: 1024px;
+  justify-content: space-between;
+} 
+
+.form1 {
+ /* width: 81%; */
+ display: flex;
+ justify-content: flex-start;
+} 
+.col2 {
+  width: 350px;
+ 
+}
+
+.box {
+  display: flex;
+  
+  justify-content: space-between;
+  height: 85px;
+  text-align: right;
+  margin-top: 6px;
+ } 
+ .boxl {
+  display: flex;
+  
+  justify-content:space-between;
+  height: 85px;
+  text-align: left;
+  margin-top: 31px;
+ } 
+ .test1 {
+  
+  
+  justify-content: inherit;
+  height: 85px;
+  width: 350px;
+ } 
+ .none {
+   display: none;
+ }
+
+ .none1 {
+  display:contents;
+}
+.formwidt {
+  width: 1024px;
+}
+.city {
+  text-align: end;
 }
